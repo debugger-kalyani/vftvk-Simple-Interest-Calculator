@@ -1,7 +1,7 @@
 function compute() {
     var principal = document.getElementById("principal").value;
     principal = parseInt(principal);
-    if (principal == 0 || principal <= 0) {
+    if (principal == 0 || principal <= 0 || isNaN(principal)) {
         alert("Enter Positive Number");
         document.getElementById("principal").focus();
         document.getElementById("range").innerHTML = "";
