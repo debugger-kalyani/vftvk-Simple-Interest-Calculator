@@ -21,5 +21,5 @@ function compute() {
 }
 function displayRange() {
     var range = document.getElementById("rate").value;
-    document.getElementById("range").innerHTML = range;
+    document.getElementById("range").innerHTML = range +"%";
 }        
