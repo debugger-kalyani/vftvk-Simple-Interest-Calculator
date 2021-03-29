@@ -16,7 +16,7 @@ function compute() {
         var today = new Date();
         var thisYear = today.getFullYear();
         var actualYear = thisYear + years;
-        document.getElementById("result").innerHTML = "If you deposit " + principal + ",<br>at an interest rate of " + rate + "%.<br> You will receive an amount of " + interest + ",<br> in the year " + actualYear;
+        document.getElementById("result").innerHTML = "If you deposit <span style='background-color:yellow'>" + principal + "</span>,<br>at an interest rate of <span style='background-color:yellow'>" + rate + "%</span>.<br> You will receive an amount of <span style='background-color:yellow'>" + interest + "</span>,<br> in the year <span style='background-color:yellow'>" + actualYear + "</span>";
     }
 }
 function displayRange() {
